@@ -1,0 +1,66 @@
+// colors
+$white: #fff;
+$link-g: rgba(255, 255, 255, 0.7);
+$eee: #eee; // second title in home
+$green: #009961;
+$l-green: #00b371;
+$header-bg: rgba(40, 40, 40, 0.9); // at some point
+$title-c: #444; // default text
+$light-t: #777777;
+$dark-t: #282828;
+$grey-t: #848484;
+$border-c1: #e7e7e7;
+$month-c: #bababa; // and not free options
+$qna-desc: #848484;
+$text-cont: #5b5b5b;
+$field-c: #212529;
+$border-f: #ced4da;
+// Background color
+$dark-bg: #0f0f0f;
+$category-bg: #f4f4f4;
+$sec-bg: #f5f6f6;
+$bg-cover: rgba(0, 0, 0, 0.6); // home cover and header at the beginning
+$play-btn-bg: radial-gradient(#009961 50%, rgba(0, 153, 97, 0.4) 52%);
+
+//family
+$family: "Open Sans", sans-serif;;
+$h-family: "Raleway", sans-serif;
+
+// transition
+@keyframes wave {
+    0% {
+        width: calc(50% + 3px);
+        height: calc(50% + 3px);
+    }
+    20% {
+        width: 60%;
+        height: 60%;
+    }
+    40% {
+        width: 70%;
+        height: 70%;
+    }
+    60% {
+        width: 80%;
+        height: 80%;
+    }
+    80% {
+        width: 90%;
+        height: 90%;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+//
+@keyframes explode {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(10);
+    }
+}
+

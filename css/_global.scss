@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: $white;
+    font-family: $family;
+    color: $title-c;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $h-family;
+}
+input, textarea {
+    border: none;
+    outline: none;
+    background: none;
+    transition: 0.3s;
+}
+section {
+    padding: 60px 0;
+}
+.container {
+    @media (min-width: 1200px) {
+        margin: 0 100px !important;
+    }
+    @media (min-width: 922px) and (max-width: 1199px) {
+        margin: 0 70px !important;
+    }
+    @media (min-width: 768px) and (max-width: 921px) {
+        margin: 0 50px !important;
+    }
+    margin: 0 30px;
+}
+.pattern {
+    margin-bottom: 30px;
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: $title-c;
+    }
+    .line {
+        width: 60px;
+        height: 3px;
+        background-color: $green;
+        margin: 15px 0;
+    }
+    p {
+        color: $light-t;
+    }
+}
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+.align-c {
+    display: flex;
+    align-items: center;
+}
+.btw-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.c-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-250 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.grid-300 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.btn-shape {
+    display: block;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
